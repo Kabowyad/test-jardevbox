@@ -1,4 +1,4 @@
-package org.example;
+package org.calculator;
 
 public class WaterCalculator {
     public long calculateWaterAmount(int[] landscape) {

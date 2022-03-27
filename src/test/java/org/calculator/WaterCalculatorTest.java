@@ -1,4 +1,4 @@
-package org.example;
+package org.calculator;
 
 import junit.framework.TestCase;
 
