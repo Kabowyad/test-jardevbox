@@ -40,6 +40,10 @@ public class WaterCalculatorTest extends TestCase {
         int[] fourth = {2,5,1,3,1,3,1,5,2};
         long fourthRes = waterCalculator.calculateWaterAmount(fourth);
         Assert.assertEquals(16, fourthRes);
+
+        int[] fifth = {1,1,1,1};
+        long fifthRes = waterCalculator.calculateWaterAmount(fifth);
+        Assert.assertEquals(0, fifthRes);
     }
 
 }
